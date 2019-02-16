@@ -21,15 +21,41 @@
         </nav>
 		<section>
 			<form action="submit.html" method="POST">
+				<!--Full Name-->
 				<label for="fullName"> Name: </label> <input type="text" id="fullName" name="fullName"> <br/>
+				<!--Email-->
 				<label for="email"> Email: </label> <input type="text" id="email" name="email"> <br/>
+				<!--Phone-->
 				<label for="phone"> Phone: </label> <input type="text" id="phone" name="phone"> <br/>
+				<!--Drop down bar-->
 				<label for="inquiry"> Reason for Inquiry </label> <select id="inquiry" name="inquiry">
 				<option value="catering" checked> Catering </option>
 				<option value="party"> Private Party </option>
 				<option value="feedback"> Feedback </option>
 				<option value="other"> Other </option>
-				</select>
+				</select><br
+				<!--Text box-->
+				<label for="info"> Additional Information: </label>
+				<textarea rows="5" id="info" name="info">
+				</textarea><br/>
+				<!--Radio-->
+				<label for="questionnaire"> Have you ever been to the restaurant? </label>
+				<input type="radio" id="choice1" name="questionnaire" value="no" checked>
+				<label for="choice1"> No </label>
+				<input type="radio" id="choice2" name="questionnaire" value="yes">
+				<label for="choice2"> Yes </label><br/>
+				<!--Checkbox for weekdays-->
+				<label for="workdays"> Best days to contact you: </label>
+				<input type="checkbox" id="monday" name="workdays" value="monday"> 
+				<label for="monday"> M </label>
+				<input type="checkbox" id="tuesday" name="workdays" value="tuesday">
+				<label for="tuesday"> T </label>
+				<input type="checkbox" id="wednesday" name="workdays" value="wednesday">
+				<label for='wednesday'> W </label>
+				<input type="checkbox" id="thursday" name="workdays" value="thursday">
+				<label for='thursday'> Th </label>
+				<input type='checkbox' id='friday' name='workdays' value='friday'>
+				<label for='friday'> F </label>
 			</form>
 		</section>
         <footer>
