@@ -1,2 +1,0 @@
-# restaurant
-First coding assignment
