@@ -1,0 +1,32 @@
+/*
+Name: Isai Chavarri
+Date Created: 2/20/2019
+Last Revision Date: 2/20/2019
+*/
+
+section {
+	background-color:#ffffb3;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+header {
+	text-align: center;
+	color: #990000;
+	font-family: 'Lobster', cursive;
+	margin-top: 0;
+	padding-bottom: 10px;
+	margin-bottom:0;
+}
+nav{
+	border-top: black thin solid;
+	border-bottom: black thin solid;
+}
+footer {
+	text-align: center;
+	color: #990000;
+	font-size: .8em;
+	border-top: black thin solid;
+}
+header, footer { 
+	background-color: #d7ebef;
+}
