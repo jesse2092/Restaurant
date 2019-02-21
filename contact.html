@@ -2,7 +2,7 @@
 <!--
     Name: Isai Chavarri 
     Date Created: 2/16/2019 
-    Most recent revision: 1:03 PM 2/20/2019
+    Most recent revision: 2/20/2019
 -->
 <html lang="en"> 
     <head> 
@@ -19,6 +19,22 @@
 			form { 
 				text-align: center;
 				}
+			label { 
+				font-weight: bold;
+				}
+			input[type=text] {
+				width: 20%;
+				padding: 8px 8px
+				box-sizing: border-box;
+				font-size: 1.1em;
+				}
+			select{
+				font-size: 1.1em;
+				width: 20%
+				}
+			textarea {
+				width: 20%;
+			}
 		</style>
     </head> 
     
@@ -35,11 +51,11 @@
 				<!--Full Name-->
 				<label for="fullName"> Name: </label> <input type="text" id="fullName" name="fullName"> <br/>
 				<!--Email-->
-				<label for="email"> Email: </label> <input type="text" id="email" name="email"> <br/>
+				<label for="email"> Email : </label> <input type="text" id="email" name="email"> <br/>
 				<!--Phone-->
 				<label for="phone"> Phone: </label> <input type="text" id="phone" name="phone"> <br/>
 				<!--Drop down bar-->
-				<label for="inquiry"> Reason for Inquiry </label> <select id="inquiry" name="inquiry">
+				<label for="inquiry"> Reason for Inquiry: </label> <select id="inquiry" name="inquiry">
 				<option value="catering" checked> Catering </option>
 				<option value="party"> Private Party </option>
 				<option value="feedback"> Feedback </option>

@@ -21,6 +21,24 @@ nav{
 	border-top: black thin solid;
 	border-bottom: black thin solid;
 }
+nav a {
+	margin-left: 2%;
+	color:#990000;
+	text-decoration: underline;
+}
+nav a:visited {
+	color: #993399;
+}
+
+nav a:hover{
+	color: #990000;
+	font-weight: bold;
+}
+
+nav a:active {
+	text-decoration: none;
+}
+
 footer {
 	text-align: center;
 	color: #990000;

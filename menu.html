@@ -2,7 +2,7 @@
 <!--
     Name: Isai Chavarri 
     Date Created:  2/17/2019
-    Most recent revision: 11:07 PM 2/20/2019
+    Most recent revision: 2/20/2019
 -->
 <html lang="en"> 
     <head> 
@@ -17,12 +17,27 @@
 		<!--External CSS-->
 		<link href='styles/restaurantStyles.css' rel='stylesheet' style='text/css'>
 		<style>
-		table {
-			margin: 0 auto;
-			width: 90%;
-			}
 		th {
 			font-size: 1.1em;
+			}
+		article {
+			margin-bottom: 5%;
+			}
+		#food {
+			width: 90%;
+			margin: 0 auto;
+			}
+		#beverages {
+			width: 90%; 
+			margin-left: auto;
+			margin-right: auto;
+			}
+		#beverages tr {
+			border: 1px solid black;
+			}
+		#beverages tr:nth-child(even) {
+			background-color: #d7ebef;
+			color: #990000;
 			}
 		</style>
 	
@@ -36,9 +51,10 @@
         <nav>
 			<p> <a href="Home.html">Home </a> &nbsp &nbsp <a href='menu.html'> Menu </a> &nbsp &nbsp <a href="contact.html"> Contact Us </a> </p>
         </nav>
+		<!-- Food Menu -->
 		<section>
-		<article>
-		<table>
+		<article class='row'>
+		<table id='food'>
 		<tr>
 		<th> Burger's and Fries </th> <th> Chile con Queso </th>  <th> Philly Cheese Steak </th>
 		</tr>
@@ -92,8 +108,37 @@
 		<td/>
 		</table>
 		</article>
+		
+		<article class='row'>
+		<!-- Beverages Table -->
+		<table id='beverages'>
+		<tr>
+		<th> Beverages </th>
+		<th> </th>
+		</tr> <br/>
+		
+		<tr>
+		<td> Root Beer </td>
+		<td> $3.00 </td>
+		</tr> <br/>
+		
+		<tr> 
+		<td> Bootled Water </td>
+		<td> $1.25 </td>
+		</tr> <br/>
+		
+		<tr>
+		<td> Lemonade </td>
+		<td> $1.00 </td>
+		</tr>
+		
+		<tr>
+		<td> Iced Tea </td>
+		<td> $1.25 </td>
+		</tr>
+		</table>
+		</article>
 		</section>
-
         <footer>
 			<p> 4328 Mofake Ln, Greenville, South Carolina, 29615 </p> 
 			<p> (864)-832-3253 </p>
