@@ -20,24 +20,33 @@ header {
 nav{
 	border-top: black thin solid;
 	border-bottom: black thin solid;
+	padding-top: 8px;
+	padding-bottom: 8px;
 }
+nav .btn {
+			background-color: #d7ebef;
+			color: #990000;
+		}
 nav a {
 	margin-left: 2%;
-	color:#990000;
 	text-decoration: underline;
 }
-nav a:visited {
-	color: #993399;
+nav .btn:visited {
+	color: #9933CC;
 }
 
-nav a:hover{
-	color: #990000;
+nav .btn:active {
+	background-color:#ffffb3;
+	color: #d7ebef;
+	text-decoration: none;
+}
+
+nav .btn:hover{
+	background-color: #990000;
+	color:white;
 	font-weight: bold;
 }
 
-nav a:active {
-	text-decoration: none;
-}
 
 footer {
 	text-align: center;
