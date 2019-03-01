@@ -3,7 +3,6 @@ Name: Isai Chavarri
 Date Created: 2/20/2019
 Last Revision Date: 2/20/2019
 */
-
 section {
 	background-color:#ffffb3;
 	padding-top: 10px;
@@ -35,16 +34,16 @@ nav .btn:visited {
 	color: #9933CC;
 }
 
-nav .btn:active {
-	background-color:#ffffb3;
-	color: #d7ebef;
-	text-decoration: none;
-}
-
 nav .btn:hover{
 	background-color: #990000;
-	color:white;
+	color: #d7ebef;
 	font-weight: bold;
+}
+
+nav .btn:active {
+	background-color:#ffffb3;
+	color: black;
+	text-decoration: none;
 }
 
 
