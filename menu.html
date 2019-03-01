@@ -19,18 +19,20 @@
 		<!--External CSS-->
 		<link href='styles/restaurantStyles.css' rel='stylesheet' style='text/css'>
 		<style>
-		th {
+		th{
 			font-size: 1.1em;
-			}
+		}
 		article {
-			margin-bottom: 5%;
+			text-align:center;
 			}
-		#food 
-			margin:0 auto;
+		.menuName{
+			font-weight:bold;
+			font-size:1.1em;
 			}
 		#beverages {
-			margin-left:0 auto;
-			margin-right:0 auto;
+			width: 90%;
+			margin-left: auto;
+			margin-right: auto;
 			}
 		#beverages tr {
 			border: 1px solid black;
@@ -57,65 +59,75 @@
         </nav>
 		<!-- Food Menu -->
 		<section>
-		<article>
-		<table id='food'>
-		<tr>
-		<th> Burger's and Fries </th> <th> Chile con Queso </th>  <th> Philly Cheese Steak </th>
-		</tr>
-		<tr> 
-		<td> An American Classic! <br/>
-		Your choice- with or without- pickles,<br/> 
-		jalopenos tomatoes, and lettuce. <br/>
-		Served with our deliciously cut fries. <br/>
-		$8.95
-		</td>
-		<td> A Taste of the South! <br/>
-		Tortilla chips with our home-made queso <br/>
-		Mixed with chille pepper, ground beef <br/>
-		avacado and served with a side of jalopenos <br/>
-		$5.95
-		</td>
-		<td>
-		An All-Time Favorite!<br/>
-		Cooked with premium sirlon steak and grilled <br/>
-		with onions and philly cheese. Topped with <br/>
-		lettuce and tomatoes. <br/>
-		$12.95
-		</td>
-		</tr>
-		<tr>
-		<th> Hotdog and Fries </th> <th> Cesar Salad </th> <th> House Salad </th>
-		</tr>
-		<td>
-		A All Year Treat!<br/>
-		Served on white bread. Your choice- <br/>
-		relish, mustard or ketchup. <br/>
-		Served with our deliciously cut fries <br/>
-		$6.95
-		</td>
-		<td>
-		A Green Choice!<br/>
-		Served with Crisp romaine lettuce, garlic <br/>
-		crutons, our Cesar dressing and parmsen <br/>
-		cheese. Your choice-grilled chicken or <br/>
-		grilled shrimp. <br/>
-		$14.95
+		<article class='row'>
 		
-		</td>
-		<td>
-		A Healthy Choice! <br/>
-		Served with mixed romaine and iceburg <br/>
-		lettuce, cherry tomatoes, cucumbers, <br/>
-		onions, and your choice-cesar, ranch <br/>
-		or thousand island dressing. <br/>
-		$6.95
-		<td/>
-		</table>
+			<div class='col-lg-4 col-md-6'>
+				<p><div class='menuName text-center'> Burger's and Fries </div>
+					An American Classic! <br/>
+					Your choice- with or without- pickles, 
+					jalopenos tomatoes, and lettuce. 
+					Served with our deliciously cut fries. <br/>
+					$8.95
+				</p>
+			</div>
+			
+			<div class='col-lg-4 col-md-6'>
+				<p><div class='menuName text-center'> Chile con Queso </div>
+					A Taste of the South! <br/> 
+					Tortilla chips with our home-made queso
+					Mixed with chille pepper, ground beef 
+					avacado and served with a side of jalopenos. <br/>
+					$5.95
+				</p>
+			</div>
+			
+			<div class='col-lg-4 col-md-6'>
+				<p><div class='menuName text-center'> Philly Cheese Steak </div>
+					An All-Time Favorite!<br/>
+					Cooked with premium sirlon steak and grilled 
+					with onions and philly cheese. Topped with 
+					lettuce and tomatoes. <br/>
+					$12.95
+				</p>
+			</div>
+			
+			<div class='col-lg-4 col-md-6'>
+				<p><div class='menuName text-center'> Hotdog and Fries </div>
+					An All Year Treat!<br/>
+					Served on white bread. Your choice- 
+					relish, mustard or ketchup. 
+					Served with our deliciously cut fries. <br/> 
+					$6.95
+					
+				</p>
+			</div>
+			
+			<div class='col-lg-4 col-md-6'>
+				<p><div class='menuName text-center'> Cesar Salad </div>
+					A Green Choice!<br/>
+					Served with Crisp romaine lettuce, garlic 
+					crutons, our Cesar dressing and parmsen 
+					cheese. Your choice-grilled chicken or 
+					grilled shrimp. <br/>
+					$14.95
+					
+				</p>
+			</div>
+			
+			<div class='col-lg-4 col-md-6'>
+				<p><div class='menuName text-center'> House Salad  </div>
+					A Healthy Choice! <br/>
+					Served with mixed romaine and iceburg
+					lettuce, cherry tomatoes, cucumbers, 
+					onions, and your choice-cesar, ranch 
+					or thousand island dressing. <br/>
+					$6.95
+			</div>
 		</article>
 		
 		<article class='row'>
 		<!-- Beverages Table -->
-		<table id='beverages'>
+		<table class='col-lg-4 col-md-6 col-sm-12' id='beverages'>
 		<tr>
 		<th> Beverages </th>
 		<th> </th>
