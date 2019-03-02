@@ -25,25 +25,43 @@
 		}
 		article {
 			text-align:center;
+			font-size:.9em
 			}
 		.menuName{
+			font-family: 'Lobster', cursive;
 			font-weight:bold;
-			font-size:1.1em;
+			font-size:1.5em;
+			color: #ff6666;
 			}
+		
 		#beverages {
 			width: 90%;
+			margin-top:25px;
 			margin-left: auto;
 			margin-right: auto;
+			font-family: 'Lobster', cursive;
+			font-weight:bold;
+			font-size:1.5em;
 			}
 		#beverages tr {
 			border: 1px solid black;
+			
 			}
-		#beverages tr:nth-child(even) {
+		#beverages tr:nth-child(odd){
 			background-color: #d7ebef;
-			color: #990000;
+			color:#ff6666;
+			
+		}
+		.price{
+			font-family: 'Lobster', cursive;
+			font-weight:bold;
+			font-size:1.2em;
+			}
+		.price2{
+			font-size:.8em;
 			}
 		#carouselNews{
-			background-color: pink;
+			background-color: #a3c2c2;
 			margin-top:0;
 			border-bottom: black thin solid;
 			}
@@ -94,7 +112,7 @@
 					Your choice- with or without- pickles, 
 					jalopenos tomatoes, and lettuce. 
 					Served with our deliciously cut fries. <br/>
-					$8.95
+					<span class='price'>$8.95 </span>
 				</p>
 			</div>
 			
@@ -104,7 +122,7 @@
 					Tortilla chips with our home-made queso
 					Mixed with chille pepper, ground beef 
 					avacado and served with a side of jalopenos. <br/>
-					$5.95
+					<span class='price'>$5.95 </span>
 				</p>
 			</div>
 			
@@ -114,7 +132,7 @@
 					Cooked with premium sirlon steak and grilled 
 					with onions and philly cheese. Topped with 
 					lettuce and tomatoes. <br/>
-					$12.95
+					<span class='price'>$12.95 </span>
 				</p>
 			</div>
 			
@@ -124,7 +142,7 @@
 					Served on white bread. Your choice- 
 					relish, mustard or ketchup. 
 					Served with our deliciously cut fries. <br/> 
-					$6.95
+					<span class='price'>$6.95 </span>
 					
 				</p>
 			</div>
@@ -136,7 +154,7 @@
 					crutons, our Cesar dressing and parmsen 
 					cheese. Your choice-grilled chicken or 
 					grilled shrimp. <br/>
-					$14.95
+					<span class='price'> $14.95 </span>
 					
 				</p>
 			</div>
@@ -148,7 +166,7 @@
 					lettuce, cherry tomatoes, cucumbers, 
 					onions, and your choice-cesar, ranch 
 					or thousand island dressing. <br/>
-					$6.95
+					<span class='price'>$6.95</span>
 			</div>
 		</article>
 		
@@ -156,28 +174,32 @@
 		<!-- Beverages Table -->
 		<table class='col-lg-4 col-md-6 col-sm-12' id='beverages'>
 		<tr>
-		<th> Beverages </th>
+		<th class='menuName' style='color:#990000;'> Beverages </th>
 		<th> </th>
 		</tr> <br/>
 		
 		<tr>
-		<td> Root Beer </td>
-		<td> $3.00 </td>
+		<td>Root Beer </td>
+		<td> <span class='price2'>$3.00 </span> </td>
 		</tr> <br/>
 		
 		<tr> 
-		<td> Bootled Water </td>
-		<td> $1.25 </td>
+		<td>Bottled Water </td>
+		<td> <span class='price2'> $1.25 </span> </td>
 		</tr> <br/>
 		
 		<tr>
-		<td> Lemonade </td>
-		<td> $1.00 </td>
+		<td>Lemonade</td>
+		<td> <span class='price2'>$1.00 </span> </td>
 		</tr>
 		
 		<tr>
-		<td> Iced Tea </td>
-		<td> $1.25 </td>
+		<td>Iced Tea </td>
+		<td> <span class='price2'>$1.25 </span> </td>
+		</tr>
+		<tr>
+		<td>Seaside Brew </td>
+		<td> <span class='price2'>$5.45 </span> </td>
 		</tr>
 		</table>
 		</article>
